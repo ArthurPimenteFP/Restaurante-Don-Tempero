@@ -1,0 +1,128 @@
+/* Fundo e tipografia geral */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #200e38;
+    color: #dec790;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  /* Títulos */
+  h1, h2, h3, h4, h5 {
+    color: #ff0d66; /* color4 */
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  /* Links */
+  a {
+    color: #ff0d66; /* color4 */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  a:hover, a:focus {
+    color: #b50d57; /* color3 */
+    text-decoration: underline;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #6a0e47; /* color2 */
+  }
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: #dec790 !important; /* color5 */
+    transition: color 0.3s ease;
+  }
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link:focus {
+    color: #ff0d66 !important; /* color4 */
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #6a0e47; /* color2 */
+    color: #dec790;            /* color5 */
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  /* Botões */
+  .btn-primary, .btn-success {
+    background-color: #b50d57; /* color3 */
+    border-color: #b50d57;     /* color3 */
+    color: white;
+    font-weight: 600;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  .btn-primary:hover, .btn-primary:focus,
+  .btn-success:hover, .btn-success:focus {
+    background-color: #ff0d66; /* color4 */
+    border-color: #ff0d66;     /* color4 */
+    color: white;
+  }
+  
+  /* Formulários */
+  form {
+    background-color: #fff;
+    color: #200e38; /* color1 */
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 13, 102, 0.2); /* usando color4 */
+  }
+  
+  label {
+    font-weight: bold;
+    color: #6a0e47; /* color2 */
+  }
+  
+  /* Inputs e textarea */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    border: 1px solid #dec790; /* color5 */
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #fff;
+    color: #200e38; /* color1 */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  input:focus,
+  textarea:focus {
+    border-color: #ff0d66; /* color4 */
+    box-shadow: 0 0 5px rgba(255, 13, 102, 0.5);
+    outline: none;
+  }
+  
+  /* Tabelas */
+  .table {
+    background-color: #fff;
+    color: #200e38; /* color1 */
+    margin-bottom: 1.5rem;
+  }
+  
+  .table thead {
+    background-color: #b50d57; /* color3 */
+    color: #fff;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f2ec;
+  }
+  
+  /* Itens do cardápio (nomes em preto) */
+  .cardapio-item {
+    color: #000000; /* preto */
+    font-weight: 600;
+  }
+
+  .jumbotron {
+    background-color: #200e38 !important; /* mesmo roxo do body */
+    color: #dec790; /* cor do texto */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }

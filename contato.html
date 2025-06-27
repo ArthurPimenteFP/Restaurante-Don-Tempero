@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Contato - Restaurante Don'Tempero</title>
+
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- Seu CSS personalizado -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #6a0e47;">
+    <a class="navbar-brand" href="index.html">Restaurante Don'Tempero</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+        <li class="nav-item"><a class="nav-link" href="cardapio.html">Cardápio</a></li>
+        <li class="nav-item active"><a class="nav-link" href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- CONTEÚDO -->
+  <div class="container mt-5 mb-5">
+    <div class="d-flex justify-content-center align-items-center mb-2">
+      <h1 class="display-4 mb-0 mr-3">Fale Conosco</h1>
+      <img src="img/cartoon.png" alt="Logo Don'Tempero" style="height:100px; width:auto;">
+    </div>
+    <form action="#" method="POST">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="nome">Nome</label>
+          <input type="text" class="form-control" id="nome" name="nome" required placeholder="Seu nome">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="email">E-mail</label>
+          <input type="email" class="form-control" id="email" name="email" required placeholder="email@exemplo.com">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="telefone">Telefone (opcional)</label>
+          <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="mensagem">Mensagem</label>
+        <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required></textarea>
+      </div>
+
+      <div class="form-group text-right">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- RODAPÉ -->
+  <footer class="bg-dark text-white text-center py-3 mt-4" style="background-color: #6a0e47;">
+    &copy; 2025 Restaurante Don'Tempero. Todos os direitos reservados.
+  </footer>
+
+  <!-- JS Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
